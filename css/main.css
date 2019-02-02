@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+#siteContainer{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*HEADER*/
+header{
+	width: 1200px;
+	display: flex;
+	flex direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#logoDiv{
+	width: 125px;
+	height: 125px;
+	background-color: black;
+}
+
+#mainNav ul{
+	display: flex;
+}
+
+#mainNav ul li{
+	width: 75px;
+	height: 30px;
+	background-color: black;
+	margin: 50px;
+}
+
+#mainNav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#socialHead img{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+}
+
+#heroImg img{
+	width: 1000px;
+	height: 350px;
+	background-color: black;
+	margin-top: 40px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+#infoBox{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#infoSection{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+#infoSection img{
+	width: 300px;
+	height: 150px;
+	background-color: black;
+	margin-top: 15px;
+}
+
+.infoBox{
+	width: 300px;
+}
+
+.infoBox p{
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.links{
+	height: 200px;
+	width: 125px;
+	background-color: black;
+	margin-left: 50px;
+}
+
+#donate{
+	width: 250px;
+	height: 175px;
+	background-color: black;
+}
+
