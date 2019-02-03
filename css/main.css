@@ -1,0 +1,192 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+#siteContainer{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*HEADER*/
+header{
+	width: 1200px;
+	display: flex;
+	flex direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+#logoDiv{
+	width: 125px;
+	height: 125px;
+	background-color: black;
+}
+
+#mainNav ul{
+	display: flex;
+}
+
+#mainNav ul li{
+	width: 75px;
+	height: 30px;
+	background-color: black;
+	margin: 50px;
+}
+
+#mainNav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#socialHead img{
+	background-color: black;
+	width: 50px;
+	height: 50px;
+}
+
+#heroImg img{
+	width: 1000px;
+	height: 350px;
+	background-color: black;
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+
+#infoBox{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+#infoSection{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+#infoSection img{
+	width: 300px;
+	height: 150px;
+	background-color: black;
+	margin-top: 15px;
+}
+
+.infoBox{
+	width: 300px;
+}
+
+.infoBox p{
+	display: flex;
+	justify-content: flex-end;
+	line-height: 30px;
+}
+
+#about{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#aboutHead{
+	width: 750px;
+	align-items: center;
+}
+
+#aboutHead h1{
+	font-size: 36px;
+}
+
+#aboutHead p{
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+#gallery{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 145px;
+}
+
+#gallery img{
+	margin-left: 40px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 175px;
+	background-color: black;
+}
+
+
+#aboutDes{
+	display: flex;
+	justify-content: space-between;
+}
+#aboutDes p{
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px;
+	display: block;
+}
+
+#aboutDes img{
+	width: 400px;
+	height: 200px;
+	background-color: black;
+	margin-right: 30px;
+}
+
+#aboutDesP{
+	display: flex;
+	flex-direction: column;
+}
+
+#staff{
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	margin-top: 50px;
+}
+#staff p{
+	color: white;
+	text-align: center;
+}
+
+#staff h3{
+	font-size: 30px;
+}
+
+.staffBox{
+	width: 400px;
+	background-color: black;
+}
+#supporters{
+	width: 250px;
+	background-color: black;
+}
+
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.links{
+	height: 200px;
+	width: 125px;
+	background-color: black;
+	margin-left: 50px;
+}
+
+#donate{
+	width: 250px;
+	height: 175px;
+	background-color: black;
+}
+
