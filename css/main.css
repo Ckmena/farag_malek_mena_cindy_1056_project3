@@ -52,7 +52,7 @@ header{
 	width: 1000px;
 	height: 350px;
 	background-color: black;
-	margin-top: 40px;
+	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
 }
@@ -67,7 +67,7 @@ header{
 #infoSection{
 	display: flex;
 	justify-content: space-between;
-	margin-top: 40px;
+	margin-top: 50px;
 }
 
 #infoSection img{
@@ -84,11 +84,97 @@ header{
 .infoBox p{
 	display: flex;
 	justify-content: flex-end;
+	line-height: 30px;
 }
+
+#about{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#aboutHead{
+	width: 750px;
+	align-items: center;
+}
+
+#aboutHead h1{
+	font-size: 36px;
+}
+
+#aboutHead p{
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+#gallery{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 145px;
+}
+
+#gallery img{
+	margin-left: 40px;
+	margin-bottom: 10px;
+	width: 300px;
+	height: 175px;
+	background-color: black;
+}
+
+
+#aboutDes{
+	display: flex;
+	justify-content: space-between;
+}
+#aboutDes p{
+	margin-top: 20px;
+	font-size: 24px;
+	line-height: 30px;
+	display: block;
+}
+
+#aboutDes img{
+	width: 400px;
+	height: 200px;
+	background-color: black;
+	margin-right: 30px;
+}
+
+#aboutDesP{
+	display: flex;
+	flex-direction: column;
+}
+
+#staff{
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
+	margin-top: 50px;
+}
+#staff p{
+	color: white;
+	text-align: center;
+}
+
+#staff h3{
+	font-size: 30px;
+}
+
+.staffBox{
+	width: 400px;
+	background-color: black;
+}
+#supporters{
+	width: 250px;
+	background-color: black;
+}
+
 
 footer{
 	display: flex;
 	justify-content: space-between;
+	margin-top: 50px;
 }
 
 .links{
